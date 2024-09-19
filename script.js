@@ -8,9 +8,9 @@ class Person {
 		}
 }
 
-class Employee {
+class Employee extends Person {
 	constructor(name,age,jobTitle){
-		 Employee extends Person
+		 super(name,age)
 		this.jobTitle = jobTitle;
 	}
 	jobGreet(){
